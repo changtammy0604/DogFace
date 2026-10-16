@@ -14,7 +14,7 @@
 
 ### **[步驟一、偵測與裁切](https://github.com/changtammy0604/DogFace/tree/main/%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87)**
 
-### **步驟二、特徵提取**
+### **[步驟二、特徵提取](https://github.com/changtammy0604/DogFace/tree/main/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
 
 
 -------------------------------------------------------
