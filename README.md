@@ -5,6 +5,8 @@
 
 　　本研究將分為三個階段進行：首先，利用 YOLO 物件偵測模型，針對複雜背景下的犬隻進行定位與影像裁切；其次，導入 ResNet-50 作為骨幹網路，結合孿生神經網路 (Siamese Network) 與三元組損失函數 (Triplet Loss) 架構，進行細粒度 (Fine-graind) 之特徵提取。最後，建置向量檢索資料庫，實現使用者上傳圖片即可快速計算相似度並回傳比對結果的應用服務。本研究最終針對多角度輸入影像實現高準確度之檢索，並輸出相似度最高的犬隻臉部與身體前十名候選結果供人工確認。
 
+![image] version3.jpg
+
 -------------------------------------------------------
 **dogfaceid 資料集：**　https://drive.google.com/file/d/1UAnR1zRmme_WTK1TecGdtYaV5zmB-jKp/view?usp=sharing
 　　為本專案蒐集的犬隻資料集，包含 dogfaceid_face 及 dogfaceid_body 兩部分，分別為擷取出的臉部及身體。兩部分裡面又分為 train_valid_all 以及 test，分別用於訓練\驗證，以及測試。
