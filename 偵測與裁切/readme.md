@@ -9,8 +9,13 @@
 　　擷取出面部邊界框後，系統會透過核心幾何錨點計算出仿射矩陣，用於將臉部轉正以減少干擾。由於直接旋轉會導致圖片周邊出現黑框（如圖 2），因此旋轉後會做二次裁切（如圖 3），再以色彩填補的方式（如圖 4），將照片大小填補至設定的長寬。
 
 ![image](https://github.com/changtammy0604/DogFace/blob/main/version3.jpg)
+
 圖 2：先以旋轉整張圖片，並以首次邊界框範圍進行延伸，取為正方形，有黑邊
+
 ![image](https://github.com/changtammy0604/DogFace/blob/main/version3.jpg)
+
 圖 3：先旋轉整張圖片並圖片延伸補黑邊，再次偵測邊界框並切割，產生正方形成果
+
 ![image](https://github.com/changtammy0604/DogFace/blob/main/version3.jpg)
+
 圖 4：先旋轉整張圖片，二次偵測邊界框後切割，犬隻臉部有嚴重拉伸
