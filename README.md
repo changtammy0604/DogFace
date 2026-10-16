@@ -11,8 +11,7 @@
 ![image](https://github.com/changtammy0604/DogFace/blob/main/version3.jpg)
 圖 1：匹配系統之架構圖
 
-### **步驟一、偵測與裁切**
-https://github.com/changtammy0604/DogFace/tree/main/%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87
+[### **步驟一、偵測與裁切**](https://github.com/changtammy0604/DogFace/tree/main/%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87)
 
 ### **步驟二、特徵提取**
 
