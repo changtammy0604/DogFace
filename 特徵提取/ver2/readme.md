@@ -1,9 +1,9 @@
 # **特徵提取**
 
 這是第二版 SupCon + YT-BB-Dog 資料集的說明，其他版本請在這裡跳轉：
-### **[第一版 - SimCLR + Sibetan](https://github.com/changtammy0604/DogFace/tree/SimCLR%2BSibetan-%E7%AC%AC%E4%B8%80%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
-### **[第三版 - SupCon + dogFaceID](https://github.com/changtammy0604/DogFace/tree/SupCon%2BdogFaceID-%E7%AC%AC%E4%B8%89%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
-### **[第四版 - DualLoss + dogFaceID](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
+### **[第一版 - SimCLR + Sibetan](https://github.com/changtammy0604/DogFace/tree/SimCLR%2BSibetan-%E7%AC%AC%E4%B8%80%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver1)**
+### **[第三版 - SupCon + dogFaceID](https://github.com/changtammy0604/DogFace/tree/SupCon%2BdogFaceID-%E7%AC%AC%E4%B8%89%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver3)**
+### **[第四版 - DualLoss + dogFaceID](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver4)**
 
 ## **資料集**
 **[YT-BB-Dog 資料集：](https://www.lirmm.fr/YT-BB-Dog_Sibetan/)**　
