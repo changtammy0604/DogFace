@@ -6,10 +6,9 @@
 ### **[第四版 - DualLoss + dogFaceID](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
 
 ## **資料集**
-**[dogfaceid 資料集：](https://drive.google.com/file/d/1UAnR1zRmme_WTK1TecGdtYaV5zmB-jKp/view?usp=sharing)**　
+**[YT-BB-Dog 資料集：](https://www.lirmm.fr/YT-BB-Dog_Sibetan/)**　
 
-專為本專案蒐集的犬隻資料集，以台灣常見犬種為主。包含 dogfaceid_face 及 dogfaceid_body 兩部分，分別為擷取出的臉部及身體。兩部分裡面又分為 train_valid_all 以及 test，分別用於訓練與驗證，以及測試。
-資料集收錄 106 隻個體，770 張全身照片，682 張臉部照片。(因為有些照片中的臉部被遮擋，無法擷取，所以臉部照片數量會比較少)
+圖片來源自 Youtube 上的影片截圖，涵蓋 2,723 隻狗與 27,036 張照片，但時常出現鏡頭或個體晃動造成的模糊。
 
 ![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-09-23%20100145.png)
 
