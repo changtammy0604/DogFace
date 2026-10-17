@@ -27,7 +27,7 @@ $$
 5. image_url：影像連結。
 6. face_embedding、body_embedding：犬隻面部、身體圖片之特徵向量。
 
-![image]()
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2/%E8%B3%87%E6%96%99%E5%BA%AB.png)
 
 圖一、政府遺失與收容犬隻資料庫嫁接、特徵向量計算之 Dog Data 資料庫畫面截取
 
@@ -42,7 +42,7 @@ $$
 **(四) 資料庫同步**
 
 在同步政府資料庫的方式上，本研究針對增量更新 (Delta Check)與全量更新 (Full Upsert)進行架構評估。增量更新需於程式端預先載入資料庫現有之 ID 清單，經由記憶體比對後僅寫入變動資料，此舉雖可降低資料庫I/O，但考量到此研究核心為視覺比對演算法，且最終清洗後之單批有效資料量落於數千筆，本系統最終採用全量更新策略，並設 gov_animal_id 為唯一鍵，每日更新。
-## **[點我前往全量更新專案]()**
+## **[點我前往全量更新專案](https://github.com/bonnieshen23/DogDataSync)**
 
 # **網站呈現**
 本系統採用 Gradio 框架搭建前端介面，整合後端資料庫與系統辨識模型，將整體系統運作與最終成果呈現分為以下機制：
@@ -54,6 +54,6 @@ $$
 **(二) 自動化資料同步**
 為確保系統資料之即時性，後端資料庫整合 GitHub 自動化排程服務。每日定時觸發工作流程，透過分頁機制向政府開放 API 抓取完整最新名單，比對並自動下架已尋獲或被領養之舊資料。隨後，系統運行特徵提取模型獲得新進犬隻之特徵向量，並同步至 Supabase 雲端資料庫。
 
-![image]()
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2/%E5%B0%88%E9%A1%8C%E7%B6%B2%E9%A0%81%E5%91%88%E7%8F%BE.png)
 
 圖二、網站畫面
