@@ -1,7 +1,5 @@
 # **身分識別與向量檢索**
 
-### **[統整與網站呈現在這裡](https://colab.research.google.com/drive/1CiR876it15IIzQbYLcuGyMeLupYrstPX?usp=sharing)**
-
 本部分透過計算使用者上傳的犬隻特徵向量與資料庫內的特徵向量之餘弦相似度，分別針對身體與臉部，各挑出最相近的前十名。
   
 **(一)　系統資料庫**
@@ -48,6 +46,9 @@ $$
 
 
 # **網站呈現**
+
+### **[統整與網站呈現在這裡](https://colab.research.google.com/drive/1CiR876it15IIzQbYLcuGyMeLupYrstPX?usp=sharing)**
+
 本系統採用 Gradio 框架搭建前端介面，整合後端資料庫與系統辨識模型，將整體系統運作與最終成果呈現分為以下機制：
 
 **(一) 檢索分流設計**
