@@ -59,12 +59,12 @@ valid_base_transform = transforms.Compose([
 # 3. 準備資料集與 Sampler
 # ==========================================
 train_dataset = ImageFolder(
-  root="/home/dogfaceid/muti_face/train/",
+  root="train",
   transform=DualViewTransform(train_base_transform) # 回傳 ((img_i, img_j), label)
 )
 
 valid_dataset = ImageFolder(
-  root="/home/dogfaceid/muti_face/valid/",
+  root="valid",
   transform=DualViewTransform(valid_base_transform)
 )
 
