@@ -38,7 +38,7 @@ class DualViewTransform:
     def __call__(self, x):
       return self.transform(x), self.transform(x)
 
-# 訓練期增強：保留裁切與翻轉，但降低顏色破壞，保留狗狗毛色
+# 訓練期增強：保留裁切與翻轉，但降低顏色破壞，保留毛色
 train_base_transform = transforms.Compose([
   transforms.RandomResizedCrop(input_height, scale=(0.4, 1.0)), # 裁切範圍調大，確保包含狗主體
   transforms.RandomHorizontalFlip(),
@@ -47,7 +47,7 @@ train_base_transform = transforms.Compose([
   transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
 ])
 
-# 驗證期增強：穩定裁切
+# 驗證期增強：僅套用裁切
 valid_base_transform = transforms.Compose([
   transforms.Resize(int(input_height * 1.14)),
   transforms.CenterCrop(input_height),
