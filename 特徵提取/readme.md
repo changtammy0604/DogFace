@@ -28,8 +28,7 @@
 在驗證階段將整個訓練集構建為檢索庫 (Gallery)。系統會將驗證集中的每張查詢影像提取特徵後，與檢索庫中的所有影像進行相似度比對與名次排序，計算本輪的平均精度均值。
 
 ## **模型架構**
-沒有更改
-但 SupCon Loss 與 Crosss-entropy Loss 要求的目標不同，直接訓練可能反而使參數難以收斂。因此 Bag of Tricks and A Strong Baseline for Deep Person Re-identification 提出應在兩個損失函數之間加入一層批次正規化層，將特徵空間分開，使損失函數能各自調整特徵空間的而不受彼此干擾。
+基於上一版，加入 5 倍交叉驗證與計算平均精度均值的步驟，也將資料集改為我們自製的 dogfaceid。
 
 
 
