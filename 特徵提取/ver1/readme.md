@@ -2,7 +2,7 @@
 
 這是第一版 SimCLR + Sibetan 資料集的說明，其他版本請在這裡跳轉：
 ### **[第二版 - SupCon + YT-BB-Dog](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver2)**
-### **[第三版 - SupCon + dogFaceID](https://github.com/changtammy0604/DogFace/tree/SupCon%2BdogFaceID-%E7%AC%AC%E4%B8%89%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver3)**
+### **[第三版 - SupCon + dogFaceID](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver3)**
 ### **[第四版 - DualLoss + dogFaceID](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver4)**
 
 ## **資料集**
