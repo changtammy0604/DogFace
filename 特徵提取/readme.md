@@ -14,6 +14,15 @@
 
 圖一、資料集處理示意圖，經過裁切後的身體與臉部分別送入不同的模型進行特徵提取。
 
+## **實作評估方式**
+
+SimCLR 使用的線性評估方式，測試在不改變特徵提取器的前提下，僅靠線性轉換能否把類別分好。若準確率高，說明預訓練學到的特徵具有極高的線性可分性。大致步驟如下：
+
+1. 拔掉用於對比學習的投射頭（Projection Head g(⋅)），只留下基礎編碼器（Encoder f(⋅)）。
+2. 凍結編碼器的所有權重，使其不再更新。
+3. 在編碼器頂端加上一個線性分類器（Linear Classifier / Logistic Regression）。
+4. 使用帶有標籤的資料集（如 ImageNet）來訓練這個線性分類器。
+
 ## **模型架構**
 SimCLR (Simple Framework for Contrastive Learning of VisualRepresentations) 是由 Google Brain 團隊於 2020 年提出的一種自監督學習 (Self-Supervised Learning) 框架。它在不需要任何人工標籤的情況下，透過對比學習 (Contrastive Learning) 讓模型學會抽取圖片特徵，並在ImageNet 的線性評估上達到了媲美監督學習的效果。
 
