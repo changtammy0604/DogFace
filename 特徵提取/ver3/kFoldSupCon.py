@@ -33,7 +33,7 @@ input_height = 224
 torch.set_float32_matmul_precision('high')
 
 # 訓練集&驗證集路徑
-dataset_path = "multi_body/train_valid_all/"
+dataset_path = "dogfaceid_face/train_valid_all/"
 
 # 固定模型權重初始化、MPerClassSampler、StratifiedKFold的隨機種子，以便實驗的可重複性
 pl.seed_everything(26, workers=True)
