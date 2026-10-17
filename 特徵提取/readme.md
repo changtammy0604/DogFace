@@ -18,6 +18,7 @@
 SimCLR (Simple Framework for Contrastive Learning of VisualRepresentations) 是由 Google Brain 團隊於 2020 年提出的一種自監督學習 (Self-Supervised Learning) 框架。它在不需要任何人工標籤的情況下，透過對比學習 (Contrastive Learning) 讓模型學會抽取圖片特徵，並在ImageNet 的線性評估上達到了媲美監督學習的效果。
 
 SimCLR 架構主要能被拆成四部分：
+
 (1) 隨機資料增強：
 對輸入的任意一張圖片隨機應用兩種不同的資料增強組合，生成兩張相互關聯的圖像，這組影像在論文中被稱作正樣本對 (PositivePair) ，兩張圖片分別用 xi 與 xj 表示。論文中指出，其中兩種增強方式的組合對最終模型的效果有顯著提升，其一是隨機裁剪及調整大小，可使模型理解整體與局部的關係；其二是隨機色彩抖動 (Random Color Jittering) ，避免模型只學到圖像中的顏色分布，而學不到更深層的語義結構。
 
