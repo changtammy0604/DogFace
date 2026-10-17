@@ -11,12 +11,15 @@
 　　專為本專案蒐集的犬隻資料集，以台灣常見犬種為主。包含 dogfaceid_face 及 dogfaceid_body 兩部分，分別為擷取出的臉部及身體。兩部分裡面又分為 train_valid_all 以及 test，分別用於訓練與驗證，以及測試。
   　資料集收錄 106 隻個體，770 張全身照片，682 張臉部照片。(因為有些照片中的臉部被遮擋，無法擷取，所以臉部照片數量會比較少)
 
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-09-23%20100145.png)
+圖一、資料集處理示意圖，經過裁切後的身體與臉部分別送入不同的模型進行特徵提取。
+
 ## **模型架構**
 結合 SimCLR 和 SupCon 上學到的對比學習，與 Visible Thermal Person Re-Identification via Dual-Constrained Top-Ranking、Person Re-Identification Method Based on Dual Descriptor Feature Enhancement 及 Person Re-Identification Based on Joint Loss and Multiple Attention Mechanism 等多篇與行人重識別相關文獻所使用的雙重損失函數，並參考 Bag of Tricks and A Strong Baseline for Deep Person Re-identification 文中提出的，在三元組損失函數與身分損失函數之間加入批次正規化，以避免兩個損失函數的衝突。
 
-![image]()
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/train_%E6%9E%B6%E6%A7%8B.jpg)
 
-圖一、使用雙重損失函數後的架構。參考 Bag of Tricks and A Strong Baseline for Deep Person Re-identification 文中的主張，在 SupCon Loss 與 Cross-Entropy Loss 之間加入批次正規化。由於損失函數已由 SimCLR 所使用的 NT-Xent loss 改為 SupCon Loss，因此除了圖片本身產生的 $$x_i$$ 和 $$x_j$$ 會互相吸引，與同個類別產生之 $$x_i$$ 和 $$x_j$$ 皆相吸，並與其他類別相斥。
+圖二、使用雙重損失函數後的架構。參考 Bag of Tricks and A Strong Baseline for Deep Person Re-identification 文中的主張，在 SupCon Loss 與 Cross-Entropy Loss 之間加入批次正規化。由於損失函數已由 SimCLR 所使用的 NT-Xent loss 改為 SupCon Loss，因此除了圖片本身產生的 $$x_i$$ 和 $$x_j$$ 會互相吸引，與同個類別產生之 $$x_i$$ 和 $$x_j$$ 皆相吸，並與其他類別相斥。
 
 本研究還實作了線性預熱 ，讓學習率在前 10 個 Epoch 緩步上升，隨後才進入餘弦退火 (Cosine Annealing) 衰減，確保預訓練權重不被瞬間的巨大誤差梯度破壞。
 
