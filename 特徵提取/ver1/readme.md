@@ -10,7 +10,7 @@
 
 由印尼的研究團隊蒐集的資料集，涵蓋 59 隻個體與 1,755 張照片，解析度 720x480。
 
-![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-09-23%20100145.png)
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver1/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-09-23%20100145.png)
 
 圖一、資料集處理示意圖，經過裁切後的身體與臉部分別送入不同的模型進行特徵提取。
 
@@ -57,6 +57,6 @@ $$𝑒𝑥𝑝(𝑠𝑖𝑚(𝑧_𝑖, 𝑧_𝑗)/𝜏)$$
 
 然而，NT-Xent 只將單一張照片所產生的兩個樣本視為要拉近的對象，並不會將單一個體的全部照片都視為同一類，因此當個體有超過一張照片時，就會導致同一個個體之間被拉遠，這並不符合我們的預期。
 
-![image](https://github.com/changtammy0604/DogFace/blob/SimCLR%2BSibetan-%E7%AC%AC%E4%B8%80%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/images.png)
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver1/images.png)
 
 圖二、圖片來自 Simple Framework for Contrastive Learning of Visual Representations，對一張照片隨機取兩塊區域，透過 NT-Xent Loss 將他們拉近
