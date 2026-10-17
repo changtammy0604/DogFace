@@ -3,9 +3,9 @@
 ### **[訓練好的參數檔在這裡](https://drive.google.com/file/d/1Jte_1NpHfV5YykD8BdFO7ny6Kb2Q7Qtx/view?usp=sharing)**
 
 這是第四版 DualLoss + dogFaceID 資料集的說明，其他版本請在這裡跳轉：
-### **[第一版 - SimCLR + Sibetan](https://github.com/changtammy0604/DogFace/tree/SimCLR%2BSibetan-%E7%AC%AC%E4%B8%80%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
-### **[第二版 - SupCon + YT-BB-Dog](https://github.com/changtammy0604/DogFace/tree/SupCon+YT-BB-Dog-%E7%AC%AC%E4%BA%8C%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
-### **[第三版 - SupCon + dogFaceID](https://github.com/changtammy0604/DogFace/blob/SupCon%2BdogFaceID-%E7%AC%AC%E4%B8%89%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
+### **[第一版 - SimCLR + Sibetan](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver1)**
+### **[第二版 - SupCon + YT-BB-Dog](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver2)**
+### **[第三版 - SupCon + dogFaceID](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver3)**
 
 ## **資料集**
 **[dogfaceid 資料集：](https://drive.google.com/file/d/1UAnR1zRmme_WTK1TecGdtYaV5zmB-jKp/view?usp=sharing)**　
