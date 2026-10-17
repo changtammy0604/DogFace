@@ -21,14 +21,14 @@
 
 擷取出面部邊界框後，系統會透過核心幾何錨點計算出仿射矩陣，用於將臉部轉正以減少干擾。由於直接旋轉會導致圖片周邊出現黑框（如圖 2），因此旋轉後會做二次裁切，為將照片大小填補至預定的長寬，照片會進行拉伸（如圖 3），然而，這會使遍布比例被破壞，因此我們改用色彩填補的方式補齊（如圖 4）。
 
-![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87/%E5%9C%96%E7%89%871.png)
+![image](https://github.com/changtammy0604/DogFace/blob/main/version3.jpg)
 
-圖 1：先以旋轉整張圖片，並以首次邊界框範圍進行延伸，取為正方形，有黑邊
+圖 2：先以旋轉整張圖片，並以首次邊界框範圍進行延伸，取為正方形，有黑邊
 
-![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87/%E5%9C%96%E7%89%872.png)
+![image](https://github.com/changtammy0604/DogFace/blob/main/version3.jpg)
 
-圖 2：先旋轉整張圖片並圖片延伸補黑邊，再次偵測邊界框並切割，最後拉伸以符合要求大小，犬隻臉部有嚴重拉伸
+圖 3：先旋轉整張圖片並圖片延伸補黑邊，再次偵測邊界框並切割，最後拉伸以符合要求大小，犬隻臉部有嚴重拉伸
 
-![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87/%E5%9C%96%E7%89%873.png)
+![image](https://github.com/changtammy0604/DogFace/blob/main/version3.jpg)
 
-圖 3：先旋轉整張圖片，二次偵測邊界框後改以色彩填補，犬隻臉部可保留原始形狀
+圖 4：先旋轉整張圖片，二次偵測邊界框後改以色彩填補，犬隻臉部可保留原始形狀
