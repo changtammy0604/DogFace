@@ -44,3 +44,5 @@
 (二) 採用平均精度均值 (Mean Average Precision, mAP) 進行驗證
 
 在驗證階段將整個訓練集構建為檢索庫 (Gallery)。系統會將驗證集中的每張查詢影像提取特徵後，與檢索庫中的所有影像進行相似度比對與名次排序，計算本輪的平均精度均值。
+
+### **[訓練好的參數檔](https://drive.google.com/file/d/1Jte_1NpHfV5YykD8BdFO7ny6Kb2Q7Qtx/view?usp=sharing)**
