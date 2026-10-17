@@ -27,7 +27,7 @@ $$
 5. image_url：影像連結。
 6. face_embedding、body_embedding：犬隻面部、身體圖片之特徵向量。
 
-![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2/%E5%B0%88%E9%A1%8C%E7%B6%B2%E9%A0%81%E5%91%88%E7%8F%BE.png)
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2/%E8%B3%87%E6%96%99%E5%BA%AB.png)
 
 圖一、政府遺失與收容犬隻資料庫嫁接、特徵向量計算之 Dog Data 資料庫畫面截取
 
@@ -55,6 +55,6 @@ $$
 **(二) 自動化資料同步**
 為確保系統資料之即時性，後端資料庫整合 GitHub 自動化排程服務。每日定時觸發工作流程，透過分頁機制向政府開放 API 抓取完整最新名單，比對並自動下架已尋獲或被領養之舊資料。隨後，系統運行特徵提取模型獲得新進犬隻之特徵向量，並同步至 Supabase 雲端資料庫。
 
-![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2/%E8%B3%87%E6%96%99%E5%BA%AB.png)
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2/%E5%B0%88%E9%A1%8C%E7%B6%B2%E9%A0%81%E5%91%88%E7%8F%BE.png)
 
 圖二、網站畫面
