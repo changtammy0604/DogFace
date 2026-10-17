@@ -8,12 +8,12 @@
 -------------------------------------------------------
 ## **系統架構**
 　　參考自 Deep Learning Pet Identification Using Face and Body (MDPI2023)，輸入犬隻圖片先經過裁剪，裁出個體與臉部區域並校正臉部角度，再進入特徵提取器，分別取得臉部與全身的特徵向量，找出資料庫內最相像的臉部與全身各十名。
-![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/version3.jpg)
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/version3.jpg)
 
 圖 1：匹配系統之架構圖
 
-### **[一、偵測與裁切](https://github.com/changtammy0604/DogFace/tree/main/%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87)**
-### **[二、特徵提取](https://github.com/changtammy0604/DogFace/tree/main/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
-### **[三、身分識別與向量檢索](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2)**
-### **[四、網站呈現](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2#%E7%B6%B2%E7%AB%99%E5%91%88%E7%8F%BE)**
+### **[一、偵測與裁切](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87#%E5%81%B5%E6%B8%AC%E8%88%87%E8%A3%81%E5%88%87)**
+### **[二、特徵提取](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
+### **[三、身分識別與向量檢索](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2)**
+### **[四、網站呈現](https://github.com/changtammy0604/DogFace/tree/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E8%BA%AB%E5%88%86%E8%AD%98%E5%88%A5%E8%88%87%E5%90%91%E9%87%8F%E6%AA%A2%E7%B4%A2#%E7%B6%B2%E7%AB%99%E5%91%88%E7%8F%BE)**
 -------------------------------------------------------
