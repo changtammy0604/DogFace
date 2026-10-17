@@ -10,7 +10,7 @@
 
 圖片來源自 Youtube 上的影片截圖，涵蓋 2,723 隻狗與 27,036 張照片，但時常出現鏡頭或個體晃動造成的模糊。
 
-![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-09-23%20100145.png)
+![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver4/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-09-23%20100145.png)
 
 圖一、資料集處理示意圖，經過裁切後的身體與臉部分別送入不同的模型進行特徵提取。
 
