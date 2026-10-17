@@ -1,6 +1,6 @@
 # **特徵提取**
 
-### **[訓練好的參數檔](https://drive.google.com/file/d/1Jte_1NpHfV5YykD8BdFO7ny6Kb2Q7Qtx/view?usp=sharing)**
+### **[訓練好的參數檔在這裡](https://drive.google.com/file/d/1Jte_1NpHfV5YykD8BdFO7ny6Kb2Q7Qtx/view?usp=sharing)**
 
 這是第四版 DualLoss + dogFaceID 資料集的說明，其他版本請在這裡跳轉：
 ### **[第一版 - SimCLR + Sibetan](https://github.com/changtammy0604/DogFace/tree/SimCLR%2BSibetan-%E7%AC%AC%E4%B8%80%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96)**
