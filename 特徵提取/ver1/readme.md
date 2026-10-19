@@ -8,7 +8,7 @@
 ## **資料集**
 **[Sibetan 資料集：](https://www.lirmm.fr/YT-BB-Dog_Sibetan/)**　
 
-由印尼的研究團隊蒐集的資料集，涵蓋 59 隻個體與 1,755 張照片，解析度 720x480。
+由印尼的研究團隊蒐集的資料集，從紅外線自動相機所拍攝的影片中擷取，涵蓋 59 隻個體與 1,755 張照片，解析度 720x480。
 
 ![image](https://github.com/changtammy0604/DogFace/blob/DualLoss%2BdogFaceID-%E7%AC%AC%E5%9B%9B%E7%89%88/%E7%89%B9%E5%BE%B5%E6%8F%90%E5%8F%96/ver1/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-09-23%20100145.png)
 
